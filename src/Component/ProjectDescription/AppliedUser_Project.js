@@ -121,7 +121,7 @@ const AppliedUser_Project = ({data , amount}) => {
         description: "Test Transaction",
         image: "",
         order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-        callback_url: "https://hustleforwork.com:5000/0auth/paymentverification",
+        callback_url: "https://localhost.com:5000/0auth/paymentverification",
         prefill: {
             name: "Gaurav Gangola",
             email: "gaurav.gangola444@gmail.com",

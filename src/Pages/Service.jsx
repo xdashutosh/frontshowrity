@@ -25,7 +25,7 @@ const Service = () => {
         <AlertIcon />
         Payment Assurance Alert
         <Text ml={2}  opacity=".8">
-          Please Note: Hustle For Work is only responsible for payment of projects obtained from the Hustle for Work platform. Choose security, choose us!
+          Please Note: Showrity is only responsible for payment of projects obtained from the Showrity platform. Choose security, choose us!
         </Text>
       </Alert>
       <Divider my={6} />
@@ -34,7 +34,7 @@ const Service = () => {
       </Heading>
 
       <Text mb={4} opacity=".8">
-        Welcome to HustleforWork, your dedicated freelancing job portal. At HustleforWork, we are committed to protecting the privacy of our users, including clients and freelancers. This Privacy Policy outlines how we collect, process, and safeguard your personal information.
+        Welcome to Showrity, your dedicated freelancing job portal. At Showrity, we are committed to protecting the privacy of our users, including clients and freelancers. This Privacy Policy outlines how we collect, process, and safeguard your personal information.
       </Text>
 
       <Heading as="h2" size="md" mb={4}>
@@ -80,7 +80,7 @@ const Service = () => {
       Children:
       </Heading>
       <Text mb={4} opacity=".8"> 
-      HustleforWork is for users aged 18 and above. Minors aged 13 to 18 may use the site with a parent or guardian's account. Users under 13 are not allowed, and we do not knowingly collect their personal information.
+       is for users aged 18 and above. Minors aged 13 to 18 may use the site with a parent or guardian's account. Users under 13 are not allowed, and we do not knowingly collect their personal information.
       </Text>
 
 
@@ -126,7 +126,7 @@ We ensure that confidential information is never leaked in the process without y
       Payment
       </Heading>
       <Text mb={4} opacity=".8"> 
-      We have a very secure and unique payment method. At Hustle for Work, we respect your effort and hard work and ensure that your hard work gets paid rightly. 
+      We have a very secure and unique payment method. At Showrity, we respect your effort and hard work and ensure that your hard work gets paid rightly. 
 
 We take 10% of the payment from the clients before you start putting in your effort and keep it with ourselves while you complete the project, ensuring that even if the client leaves the project in between, your efforts won't be wasted, and you get the amount that we have locked. 
 

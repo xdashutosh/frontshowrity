@@ -97,9 +97,7 @@ const removeCountry = (countryToRemove) => {
     .filter((data)=>{
       return selectedbadge === null || data.badges === selectedbadge;
     });
-    // .filter((data)=>{
-    //   return  selectedCountries.includes(data.country);
-    // });
+
       }, [allPost,selectedbadge]);
 
 

@@ -1,5 +1,5 @@
 const config = {
-  API_BASE_URL:"https://hustleforwork.com:5000",
+  API_BASE_URL:"http://localhost:5000",
 
   };
   

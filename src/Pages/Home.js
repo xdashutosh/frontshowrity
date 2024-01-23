@@ -177,7 +177,7 @@ if (token) {
            <Button w={'full'} letterSpacing={'widest'}>Login</Button>
           </Link>
           <Text mt={['','4']} fontSize={'xs'}  >
-          By joining, you agree to the HustleforWork Terms of Service and to occasionally receive emails from us. Please read our Privacy Policy to learn how we use your personal data.
+          By joining, you agree to the Showrity Terms of Service and to occasionally receive emails from us. Please read our Privacy Policy to learn how we use your personal data.
           </Text>
           </VStack>
         

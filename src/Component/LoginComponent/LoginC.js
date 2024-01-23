@@ -184,7 +184,7 @@ const LoginC  = () => {
         <Box  h="auto">
       <Image src={hustleimg} alt="Example" />
     </Box>
-       <Text >Welcome to hustleforwork</Text>
+       <Text >Welcome to Showrity</Text>
        <VStack mt={'16'} spacing={'4'} w={'full'}>
 
           <FormControl id="email" >

@@ -121,7 +121,7 @@ const Contact = () => {
           </HStack>
           <HStack spacing={2}>
             <Icon as={HiOutlineMail} />
-            <Text>support@hustleforwork.com</Text>
+            <Text>support@showrity.gmail</Text>
           </HStack>
         </VStack>
 

@@ -87,7 +87,7 @@ const Header = () => {
       <div className='flex flex-col gap-3 '>
           <div className='text-left border-l-4 p-3'>
             <p className='rotating-text text-[#EEEEEE] font-bold text-xl sm:text-3xl'>{texts[currentTextIndex]} </p>
-            <p className=' text-[#EEEEEE] font-bold text-sm sm:text-2xl'>With <b className='tracking-tight border-b-2  text-[#6ad6a0]' >Hustle for Work</b></p>
+            <p className=' text-[#EEEEEE] font-bold text-sm sm:text-2xl'>With <b className='tracking-tight   text-[#6ad6a0]' >Showrity</b></p>
             
           </div>
         </div>

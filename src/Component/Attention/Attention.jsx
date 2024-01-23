@@ -27,7 +27,7 @@ const Attention = () => {
     <DrawerContent>
       <DrawerCloseButton mt="4" />
       <DrawerHeader>Please Note
-      <Text opacity={'.8'} fontSize={'md'}>Hustle For Work is only responsible for payment of projects obtained from the Hustle for Work platform. Choose security, choose us! <Link to={'/privacy-policy'} style={{color:'blue',textDecoration:'underline'}}>Learn more</Link></Text>
+      <Text opacity={'.8'} fontSize={'md'}>Showrity For Work is only responsible for payment of projects obtained from the Showrity platform. Choose security, choose us! <Link to={'/privacy-policy'} style={{color:'blue',textDecoration:'underline'}}>Learn more</Link></Text>
       </DrawerHeader>
     </DrawerContent>
   </Drawer>

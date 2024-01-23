@@ -1,12 +1,9 @@
-import { Badge, Button, Flex, HStack, Heading, Select, Stack, Text, VStack } from '@chakra-ui/react'
+import { Badge, Button,HStack, Heading, Select, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import  { useState, useEffect } from 'react';
 import { Backend_Url } from '../Path.js';
-import SearchBarHome from './SearchBarHome.jsx';
-import TaskCard from './DahBoard/DashBoarddeveloper/TaskCard.js';
 import NavBar from './NavBar.js';
 import SearchbarDev from './SearchbarDev.jsx';
-import { BsFillHeartFill, BsHeart } from 'react-icons/bs';
 import Filteredjobcard from './Filteredjobcard.jsx';
 import { Link } from 'react-router-dom';
 const HeaderDev = () => {
@@ -184,7 +181,6 @@ const HeaderDev = () => {
 <Filteredjobcard data={data} key={index}/>
 
            ))}
-
 
 
     </VStack>

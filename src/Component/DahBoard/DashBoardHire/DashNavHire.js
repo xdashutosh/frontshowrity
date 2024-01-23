@@ -181,7 +181,7 @@ const NavBar = () => {
 <DrawerOverlay >
     <DrawerContent>
         <DrawerCloseButton color={'black'}/>
-        <DrawerHeader bg={'whiteAlpha.600'} shadow={'md'} textColor={'white'}><Text textColor={'black'}>Hustle For Work</Text></DrawerHeader>
+        <DrawerHeader bg={'whiteAlpha.600'} shadow={'md'} textColor={'white'}><Text textColor={'black'}>Showrity</Text></DrawerHeader>
 <DrawerBody bg={'whiteAlpha.300'} >
     <VStack spacing={'3'} align="stretch">
 

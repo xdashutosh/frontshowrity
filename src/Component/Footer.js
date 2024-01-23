@@ -10,8 +10,6 @@ import {
   BiLogoGmail,
 } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import Maps from "./Map/Maps";
-import { BiAtom } from "react-icons/bi";
 import { Image ,Box} from "@chakra-ui/react";
 import hustleimg  from '../images/hustlelogo.png';
 
@@ -24,8 +22,8 @@ const Footer = () => {
     const url = `${whatsappBaseUrl}?phone=${phoneNumber}&text=${encodedMessage}`;
     window.open(url, "_blank");
   };
-  const phoneNumber = "9958360795"; // Replace with the recipient's phone number
-  const message = "Hello, how can I help you?";
+  const phoneNumber = "9045153128"; // Replace with the recipient's phone number
+  const message = "Hello! i am new to showrity";
 
   const handleClick = (c) => {
     if (show === c) {
@@ -37,12 +35,12 @@ const Footer = () => {
 
   const  sendWhatsAppMessage = () => {
     // Replace '123456789' with the recipient's phone number
-    const phoneNumber = '9958360795';
+    const phoneNumber = '9045153128';
 
     // Replace 'Hello, how can I help you?' with your desired message
     
    
-const message = 'Hello, i am new to hustleforwork,tell me about all opportunities';
+const message = 'Hello, i am new to showrity,tell me about all opportunities';
 
 // Construct the WhatsApp API URL
 
@@ -99,7 +97,7 @@ const encodedMessage = encodeURIComponent(message);
                 </span>
               </span>
               <a
-                href="https://www.instagram.com/oragetechnologies/"
+                href="https://www.instagram.com"
                 target="_blank" rel="noreferrer"
               >
                 <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
@@ -110,7 +108,7 @@ const encodedMessage = encodeURIComponent(message);
                 </p>
               </a>
               <a
-                href="https://twitter.com/i/flow/login?redirect_after_login=%2FOfficialOrage"
+                href="https://twitter.com"
                 target="_blank" rel="noreferrer"
               >
                 <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
@@ -121,7 +119,7 @@ const encodedMessage = encodeURIComponent(message);
                 </p>
               </a>
               <a
-                href="https://in.linkedin.com/company/orage-technologies-private-limited"
+                href="https://in.linkedin.com"
                 target="_blank" rel="noreferrer"
               >
                 <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
@@ -132,7 +130,7 @@ const encodedMessage = encodeURIComponent(message);
                 </p>
               </a>
               <a
-                href="https://www.youtube.com/@OrageTechnologies"
+                href="https://www.youtube.com"
                 target="_blank" rel="noreferrer"
               >
                 <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
@@ -147,25 +145,25 @@ const encodedMessage = encodeURIComponent(message);
           <div className="w-full sm:w-1/4 md:w-1/4 lg:w-1/4 flex flex-col gap-2 font-sans text-left">
             <p className="font-bold underline">Get In Touch</p>
 
-            <a href="mailto:orage@gmail.com" className="flex gap-2">
+            <a href="mailto:ashuchaudhary6969@gmail.com" className="flex gap-2">
               <span className="cursor-pointer  hover:opacity-80 flex gap-2">
                 <BiLogoGmail size={"20"} />
               </span>
               <span className="font-bold flex sm:text-sm md:text-[12px] flex-col justify-center ">
-                info@hustleforwork.com
+                info@Showrity.gmail
               </span>
             </a>
             <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
               <BiPhone size={"20"} />
               <span className="font-bold flex flex-col justify-center">
-              9958360795
+              9045153128
               </span>
             </p>
             <p className="cursor-pointer  text-sm hover:opacity-80 flex gap-2">
               <BiLocationPlus size={"20"} />
               <span className="font-bold flex flex-col justify-center">
-                Noida
-                <Maps />
+              GreaterNoida 
+             
               </span>
             </p>
           </div>
@@ -268,7 +266,7 @@ const encodedMessage = encodeURIComponent(message);
                       </span>
                     </span>
                     <a
-                      href="https://www.instagram.com/oragetechnologies/"
+                      href="https://www.instagram.com"
                       target="_blank" rel="noreferrer"
                     >
                       <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
@@ -279,7 +277,7 @@ const encodedMessage = encodeURIComponent(message);
                       </p>
                     </a>
                     <a
-                      href="https://twitter.com/i/flow/login?redirect_after_login=%2FOfficialOrage"
+                      href="https://twitter.com"
                       target="__blank"
                     >
                       <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
@@ -301,7 +299,7 @@ const encodedMessage = encodeURIComponent(message);
                       </p>
                     </a>
                     <a
-                      href="https://www.youtube.com/@OrageTechnologies"
+                      href="https://www.youtube.com"
                       target="__blank"
                     >
                       <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
@@ -354,22 +352,22 @@ const encodedMessage = encodeURIComponent(message);
                         <BiLogoGmail size={"20"} />
                       </span>
                       <span className="font-bold flex sm:text-sm md:text-[12px] flex-col justify-center ">
-                        info@oragetechnologies.com
+                        info@showrity.gmail
                       </span>
                     </a>
                     <a href="#" onClick={sendWhatsAppMessage}>
                     <p className="cursor-pointer text-sm hover:opacity-80 flex gap-2">
                       <BiPhone size={"20"} />
                       <span className="font-bold flex flex-col justify-center">
-                        9898989898
+                        9045153128
                       </span>
                     </p>
                     </a>
                     <p className="cursor-pointer  text-sm hover:opacity-80 flex gap-2">
                       <BiLocationPlus size={"20"} />
                       <span className="font-bold flex flex-col justify-center">
-                        Noida
-                        <Maps />
+                     GreaterNoida
+                     
                       </span>
                     </p>
                   </p>
@@ -380,7 +378,7 @@ const encodedMessage = encodeURIComponent(message);
         </div>
         <hr className=" mt-4 mb-3 bg-gray-200 border-0 rounded dark:bg-gray-700"></hr>
         <p className=" ml-4">
-        &#169; 2023-2024 <span className="font-bold">hustleforwork.com &#174;</span>. All Rights
+        &#169; 2023-2024 <span className="font-bold">showrity.com &#174;</span>. All Rights
           Reserved.
         </p>
       </div>

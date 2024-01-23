@@ -215,7 +215,7 @@ const NavBar = () => {
                   textColor={"white"}
                 >
                   <Text fontSize={"md"} textColor={"black"}>
-              Hustle For Work
+              Showrity
                   </Text>
                 </DrawerHeader>
                 <DrawerBody bg={"whiteAlpha.400"}>

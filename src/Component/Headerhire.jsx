@@ -3,8 +3,6 @@ import {
   Button,
   Card,
   CardBody,
-  CardFooter,
-  Flex,
   Heading,
   Image,
   Stack,
@@ -18,7 +16,6 @@ import { useState, useEffect } from "react";
 import { HStack, VStack } from "@chakra-ui/react";
 import SearchBarHome from "./SearchBarHome";
 import { Link, useNavigate } from "react-router-dom";
-import Register from "../Pages/Register";
 import NavBar from "./NavBar";
 import SellerCard from "./SellerCard";
 
@@ -244,9 +241,6 @@ const [result, setResult] = useState(null);
           data.map((item,i)=>(
             <>
                 <SellerCard key={i} data={item}/>
-                
-
-                
                 </>
                 
                 ))
