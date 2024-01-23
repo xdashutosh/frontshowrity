@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { getCookie } from '../Utils/getCookies';
-import { Card, CardHeader,Stack, CardBody, CardFooter, Button, Image, Text, Box, Heading, ButtonGroup, Avatar, Flex, HStack, Badge, VStack } from '@chakra-ui/react'
+import { Card,Stack, CardBody, Button, Image, Text, Heading, HStack, Badge } from '@chakra-ui/react'
 const SellerCard = ({data}) => {
 
   const [badgecolor,setbadgecolor] = useState('orange');
 
-  const img="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+ 
 const Navigate=useNavigate();
 // const {id}=useParams();
   const handleClick=(id)=>{
