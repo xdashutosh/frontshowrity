@@ -379,7 +379,7 @@ const encodedMessage = encodeURIComponent(message);
         <hr className=" mt-4 mb-3 bg-gray-200 border-0 rounded dark:bg-gray-700"></hr>
         <p className=" ml-4">
         &#169; 2023-2024 <span className="font-bold">showrity.com &#174;</span>. All Rights
-          Reserved.
+          Reserved. <b className="text-2xl">Developed by Ashutosh chaudhary</b>
         </p>
       </div>
     </footer>

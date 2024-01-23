@@ -21,7 +21,7 @@ const SpinnerLoader = () => {
 </style>
   <Heading letterSpacing={'widest'} textColor={'black'}  style={{
       animation: "move 2s ",
-    }}  >🅷🆄🆂🆃🅻🅴</Heading>
+    }}  >🆂🅷🅾🆆🆁🅸🆃🆈</Heading>
     </Stack>
 
   )
